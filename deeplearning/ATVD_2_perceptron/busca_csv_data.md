@@ -1,1 +1,1 @@
-<pre> ```mermaid graph TD A[Início] --> B{Decisão} B -->|Sim| C[Processo 1] B -->|Não| D[Processo 2] C --> E[Fim] D --> E[Fim] ``` </pre>
+<pre> ```mermaid classDiagram Veiculo <|-- Carro Veiculo <|-- Aviao Veiculo <|-- Motocicleta Veiculo : +int idade Veiculo : +int kmsRodados Veiculo: +estaFuncionando() Veiculo: +dirigir() class Carro{ +String Cor +acelerar() +parar() } class Aviao{ -int tamanhoEmMetros -decolar() } ``` </pre>
