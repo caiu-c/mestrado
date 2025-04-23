@@ -1,5 +1,4 @@
 ```mermaid
-
 graph TD
     A[Início] --> B[Função obter_indice]
     B --> C[Retorna o índice da linha]
@@ -12,4 +11,5 @@ graph TD
     I --> J[Filtra dados para teste]
     J --> K[Retorna dados de treino e teste]
     K --> L[Fim]
+
 ```
