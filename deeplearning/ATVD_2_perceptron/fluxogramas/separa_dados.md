@@ -1,6 +1,6 @@
 ```mermaid
 graph TD
-        A[Início] --> B[Função obter_indice]
+    A[Início] --> B[Função obter_indice]
     B --> C[Retorna o índice da linha]
     A --> D[Função nao_esta_nos_indices]
     D --> E[Retorna função lambda]
